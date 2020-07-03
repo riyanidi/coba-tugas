@@ -1,127 +1,46 @@
-.title {
-  color: #02ccba;
-}
-
-* {
-  margin: 0;
-}
-.header {
-  background-color: #00008B;
-  height: 50px;
-  width: 100%;
-}
-
-
-.header-list li {
-  list-style: none;
-  float: left;
-  color: white;
-  padding: 14px 5px ;
-  font-size: 15px;
-}
-
-.header-list2 li {
-  list-style: none;
-  float: right;
-  color: white;
-  padding: 10px 10px ;
-  font-size: 20px;
-}
-.fa-phone {
-  padding: 0px 0px;
-  font-size: 25px
-}
-
-.fa-envelope {
-  padding-left: 20px;
-  font-size: 25px;
-}
-
-.fa-search {
-  padding: 15px;
-}
-.fa-facebook-square {
-  padding-right: 70px;
-}
-
-.login {
-  padding-right: 50px;
-}
-.nav {
-  background-color: none;
-  height:70px;
-  width: 100%;
-  margin: auto;
-}
-
-.nav-logo {
-  color: black;
-  font-size: 35px;
-  padding: 14px;
-  padding-left: 30px;
-  float: left;
-  font-family: cambria;
-  font-weight: bolder;
-  letter-spacing: 4px;
-}
-.nav-list li {
-  list-style: none;
-  float: right;
-  padding: 15px ;
-  font-size: 15px;
-  font-family: verdana;
-}
-
-.nav-list li:hover{
-    background: #00008B;
-}
-.nav-list li:hover a{
-    color: snow;
-}
-.nav-list li a{
-    display: block;
-    padding: 11px;
-    color: #000000;
-    text-decoration: none;
-}
-
-.active {
-      text-decoration: underline;
-}
-/*untuk layar device berukuran kecil*/
-@media screen and (min-width: 450px) {
-   .header {
-       width: 50%
-   }
-   .nav {
-       width: 50%
-   }
-}
-
-/*untuk layar device berukuran sedang*/
-@media screen and (min-width: 550px) {
-   .header {
-       width: 33%;
-   }
-   .nav {
-       width: 33%;
-   }
-}
-
-/*untuk layar device berukuran besar*/
-@media screen and (min-width: 800px) {
-   .header {
-       width: 800px;
-       margin-left: auto;
-       margin-right: auto;
-   }
-   .nav {
-       width: 800px;
-       margin-left: auto;
-       margin-right: auto;
-     }
-}
-
-main {
-  background-color: green;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CEB I10</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-sc>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-list">
+        <ul>
+          <li><i class="fa fa-phone"></i></li>
+          <li>+62 21 2121212121</li>
+          <li><i class="fa fa-envelope"></i></li>
+          <li>I10@ceb.info</li>
+        </ul>
+       </div>
+       <div class="header-list2">
+         <ul>
+           <li><i class="fa fa-facebook-square"></i></li>
+           <li><i class="fa fa-instagram"></i></li>
+           <li><i class="fa fa-youtube"></i></li>
+           <li><i class="fa fa-twitter"></i></li>
+         </ul>
+       </div>
+    </div>
+    <div class="nav">
+      <div class="nav-logo">CEB-i10</div>
+      <div class="nav-list">
+        <ul>
+          <li><i class="fa fa-search"></i></li>
+          <li><a href="#" >Login</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" >Home</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <main>
+    <h1>Main</h1>
+  </main>
+</html>
