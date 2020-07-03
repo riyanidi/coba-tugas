@@ -29,7 +29,7 @@ html {
 }
 
 
-.header-list li {
+.header-list {
   list-style: none;
   float: left;
   color: white;
@@ -37,65 +37,21 @@ html {
   font-size: 15px;
 }
 
-.header-list2 li {
+.header-list2 {
   list-style: none;
   float: right;
   color: white;
   padding: 10px 10px ;
-  font-size: 20px;
-}
-.fa-phone {
-  padding: 0px 0px;
-  font-size: 25px
-}
-
-.fa-envelope {
-  padding-left: 20px;
-  font-size: 25px;
-}
-
-.fa-search {
-  padding: 15px;
-}
-.fa-facebook-square {
-  padding-right: 70px;
-}
-
-.login {
-  padding-right: 50px;
-}
-.nav {
-  background-color: none;
-  height:70px;
-  width: 100%;
-  margin: auto;
-}
-
-.nav-logo {
-  color: black;
-  font-size: 35px;
-  padding: 14px;
-  padding-left: 30px;
-  float: left;
-  font-family: cambria;
-  font-weight: bolder;
-  letter-spacing: 4px;
-}
-.nav-list li {
-  list-style: none;
-  float: right;
-  padding: 15px ;
   font-size: 15px;
-  font-family: verdana;
 }
 
-.nav-list li:hover{
+.header-list2 :hover{
     background: #00008B;
 }
-.nav-list li:hover a{
+.header-list2 :hover a{
     color: snow;
 }
-.nav-list li a{
+.header-list a{
     display: block;
     padding: 11px;
     color: #000000;
